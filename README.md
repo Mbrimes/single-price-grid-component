@@ -48,7 +48,7 @@ Users should be able to:
 I learnt basic application of HTML and CSS in creating a static web page. 
 
 ### Continued development
-I would continue focusing and Learnin more on css and how to use other frameworks for building web pages.
+I would continue focusing and Learning more on css and how to use other frameworks for building web pages.
 
 
 ### Useful resources
