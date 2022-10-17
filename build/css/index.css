@@ -2,7 +2,7 @@ body {
   font-family: 'Karla', sans-serif;
   background-color: #e5eff5; }
 
-section {
+.main {
   margin-left: 20%;
   margin-top: 6em;
   display: block;
@@ -43,7 +43,7 @@ section {
       padding-right: 6px;
       color: #e5eff5;
       letter-spacing: 1px;
-      font-size: 16px;
+      font-size: 20px;
       font-weight: bold; }
     .containerr .sec .heg {
       color: #c1d7e6; }
@@ -62,8 +62,8 @@ section {
     padding-left: 2em;
     width: 50%;
     color: #dbe8f0; }
-    .containerr .sev h5 {
-      font-size: 16px; }
+    .containerr .sev h2 {
+      font-size: 20px; }
     .containerr .sev p {
       font-size: 14px;
       line-height: 4px;
