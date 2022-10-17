@@ -1,0 +1,115 @@
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: #e5eff5; }
+
+section {
+  margin-left: 20%;
+  margin-top: 6em;
+  display: block;
+  width: 60%;
+  background-color: white;
+  border-radius: 0.5em; }
+
+.container {
+  padding: 1.5em 0em 2em 2em; }
+  .container h1 {
+    color: #2ab2af;
+    font-size: 16px;
+    font-weight: bolder; }
+  .container h2 {
+    color: #c0df34;
+    font-size: 16px; }
+  .container p {
+    color: #98a6bd;
+    font-size: 16px;
+    width: 70%; }
+
+.containerr {
+  display: flex; }
+  .containerr .sec {
+    background-color: #239593;
+    border-bottom-left-radius: 0.5em;
+    width: 50%;
+    padding: 1em 0em 1em 2em; }
+    .containerr .sec .hed {
+      color: #e5eff5;
+      font-size: 16px;
+      letter-spacing: 1px; }
+    .containerr .sec p {
+      font-size: 16px;
+      color: #a7c7dc;
+      font-weight: lighter; }
+    .containerr .sec span {
+      padding-right: 6px;
+      color: #e5eff5;
+      letter-spacing: 1px;
+      font-size: 16px;
+      font-weight: bold; }
+    .containerr .sec .heg {
+      color: #c1d7e6; }
+    .containerr .sec .btn {
+      background-color: #c0df34;
+      width: 80%;
+      padding: 1em;
+      border-radius: 5px;
+      text-align: center;
+      color: #e5eff5;
+      margin-top: 2em; }
+  .containerr .sev {
+    background-color: #2ab2af;
+    border-bottom-right-radius: 0.5em;
+    padding-top: 1em;
+    padding-left: 2em;
+    width: 50%;
+    color: #dbe8f0; }
+    .containerr .sev h5 {
+      font-size: 16px; }
+    .containerr .sev p {
+      font-size: 14px;
+      line-height: 4px;
+      color: #c1d7e6; }
+
+.attribution {
+  font-size: 14px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3;
+  text-decoration: none; }
+
+@media screen and (max-width: 425px) {
+  section {
+    margin-left: 5%;
+    margin-top: 3em;
+    width: 90%; }
+  .container {
+    padding: 0.5em 0em 1em 1em; }
+    .container h1 {
+      font-size: 0.75em; }
+    .container h2 {
+      font-size: 9px; }
+    .container p {
+      font-size: 9px;
+      width: 70%; }
+  .containerr {
+    display: block;
+    width: 100%; }
+    .containerr .sec {
+      width: 96%;
+      padding: 1em 0em 1em 1em;
+      border-radius: 0px; }
+      .containerr .sec .btn {
+        width: 88%; }
+    .containerr .sev {
+      padding: 0.5em 0em 1em 1em;
+      width: 96%;
+      border-bottom-left-radius: 0.5em; } }
+
+@media screen and (max-width: 375px) {
+  .containerr {
+    display: block;
+    width: 99%; }
+    .containerr .sec {
+      width: 96%; }
+    .containerr .sev {
+      width: 96%; } }
