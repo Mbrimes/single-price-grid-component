@@ -2,7 +2,7 @@ body {
   font-family: 'Karla', sans-serif;
   background-color: #e5eff5; }
 
-.main {
+main {
   margin-left: 20%;
   margin-top: 6em;
   display: block;
@@ -63,11 +63,7 @@ body {
     width: 50%;
     color: #dbe8f0; }
     .containerr .sev h2 {
-<<<<<<< HEAD
       font-size: 20px; }
-=======
-      font-size: 16px; }
->>>>>>> ef3d16161a8b60dfc8a8e1b5cb5f335e6a4ce972
     .containerr .sev p {
       font-size: 14px;
       line-height: 4px;
